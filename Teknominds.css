@@ -28,7 +28,7 @@ li a {
    color: #ffffff;
 }
 
-li a.active{
+.active{
    color: orange;
 }
 

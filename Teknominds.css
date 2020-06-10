@@ -28,7 +28,7 @@ li a {
    color: #ffffff;
 }
 
-li a.active:hover{
+li a.active{
    color: orange;
 }
 

@@ -1,1 +1,0 @@
-# teknominds.co.in

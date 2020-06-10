@@ -98,7 +98,7 @@ li a:hover{
 }
 
 .mySlides:nth-child(1){
-    background-image: url('https://23o0161033pm1289qo1hzrwi-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Types-of-cloud-computing-services.jpg');
+    background-image: url("https://23o0161033pm1289qo1hzrwi-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Types-of-cloud-computing-services.jpg");
   background-size: cover;
 }
 

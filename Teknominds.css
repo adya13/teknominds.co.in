@@ -28,7 +28,11 @@ li a {
    color: #ffffff;
 }
 
-li a.active, li a:hover{
+li a.active:hover{
+   color: orange;
+}
+
+li a:hover{
   color: orange;
 
 }

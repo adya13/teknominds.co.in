@@ -301,8 +301,9 @@ footer  a :hover{
     font-size: 25px;
   }
   
-  #image img{
-align-content:center
+  #image{
+    justify-content:center;
+align-item:center;
   }
 
   .main-menu li {

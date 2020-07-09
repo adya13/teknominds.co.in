@@ -261,6 +261,7 @@ footer  a :hover{
   #image img{
     height: auto;
     width: 100%;
+    
   }
 
   header{
@@ -301,9 +302,8 @@ footer  a :hover{
     font-size: 25px;
   }
   
-  #image{
-    justify-content:center;
-align-item:center;
+  #image img{
+   margin:auto;
   }
 
   .main-menu li {

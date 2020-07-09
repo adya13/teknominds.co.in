@@ -41,7 +41,7 @@ h1 {
 
   #image p{
     padding: 25px;
-    line-height: 50px;
+    line-height: 25px;
   }
 
   #bg{
@@ -299,6 +299,10 @@ footer  a :hover{
     position: absolute;
    
     font-size: 25px;
+  }
+  
+  #image img{
+align-content:center
   }
 
   .main-menu li {

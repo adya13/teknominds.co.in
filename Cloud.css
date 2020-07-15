@@ -1,0 +1,389 @@
+*{
+  box-sizing:border-box
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background:  #f2643e;
+}
+
+#content{
+  margin-top: 65px;
+  /*margin-right: 0;*/
+  background: #eaeff3;
+ color: #2d2d2f;
+ /*padding: 60px;*/
+ width:100%;
+
+}
+
+h1 {
+    background: url('cloudcomputing.jpg');
+    /*margin-left: 15%*/;
+    background-size: cover;
+    height: 400px;
+     padding: 25px;
+    color:  #f2643e;
+    font-size: 50px;
+    text-align: center;
+  }
+
+#image{
+  background: rgba(0,0,0,0.8);
+  padding-left: 50px;
+  margin-top: -80px;
+}
+
+#image p{
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+#bg h3{
+    font-size: 25px;
+    margin-left: 25px;
+  }
+
+  #bg{
+    
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+  }
+
+  #try{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5rem;
+    /*grid-column-gap: 0.5rem;*/
+    padding: 5rem 0rem;
+    width: 100%;
+
+    /*justify-content: space-around;*/
+    
+
+  }
+   
+    #bg ul li{
+    margin-left: 25px;
+     font-family: sans-serif;
+  }
+
+  #bg p{
+    padding: 0px 25px;
+    font-family: sans-serif;
+  }
+
+  .grid {
+    width: 90%;
+    padding: 5px;
+    margin-left: 25px;
+    color: white;
+    background: #f2643e;
+    border-radius: 20px;
+  }
+
+
+  h3{
+    color: #3c297b;
+    
+
+  }
+
+  h2{
+    font-size: 34px;
+  }
+
+  h4{
+    color: skyblue;
+    font-size: 18px;
+    padding: 0px 25px;
+  }
+
+  #bg p, ul li{
+    font-size: 22px;
+  }
+
+ /* #text {
+    
+    background: #4863A0;
+    padding: 10px;
+    line-height: 25px;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  #text h4{
+    
+    color: pink;
+    text-decoration: underline;
+    
+  }
+
+  #text p{
+    color: #2b2d2f;
+  }*/
+
+
+
+header {
+ background:#3c297b;
+ width: 100%;
+ height:30px;
+ top: 0;
+ padding: 15px 0px;
+ position: fixed;
+ font-size: 30px;
+
+}
+.main-menu  li{
+  list-style-type: none;
+  font-size: 22px;
+  float: left;
+  padding-left:5%;
+
+}
+li a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+a.active{
+   color:  #f2643e;
+
+}
+.active a{
+   color:  #f2643e;
+
+}
+
+ li a:hover{
+  color:  #f2643e;
+
+}
+.sub-menu{
+  background-color: #3c297b;
+  
+  }
+
+.sub-menu{
+  display: none;
+
+}
+
+ li:hover .sub-menu{
+   display:block;
+   position: absolute;
+   color:  #f2643e;
+   /*margin-top: 0;*/
+   /*margin-left: -15px;*/
+ }
+
+ li:hover .sub-menu ul{
+  display: flex;
+
+  flex-direction: column;
+  margin-top:0;
+  padding: 0;
+ 
+ }
+
+  li:hover .sub-menu ul li {
+     width:300px;
+     padding: 10px;     
+     border-bottom: 1px dotted #fff;
+     background:transparent;
+     border-radius: 0;
+     text-align: left;
+  }
+
+  li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+  }
+  
+  footer{
+  width: 100%;
+  background: #3c297b;
+  display: block;
+ 
+}
+
+.footer-content{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.footer-item{
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+ footer h3{
+  padding: 10px 0;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.footer-item p{
+   color: white;
+   font-size: 16px;
+   text-align: justify;
+}
+
+.border{
+  height: 2px;
+  width: 40px;
+  background: #f2643e;
+}
+
+footer ul li{
+  list-style-type: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+   margin: 10px 0;
+  height: 25px;
+}
+
+footer  a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+footer  a :hover{
+  color: #f2643e;
+}
+
+.footer-social{
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.footer-social i{
+  height: 15px;
+  width: 15px;
+  margin: 10px 30px;
+  padding: 10px;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.footer-social i:hover{
+  background:  #f2643e;
+  border: 1px solid #3c297b;
+  color:#3c297b;
+}
+  @media screen and (max-width: 1085px){
+  
+   #image{
+      margin-top: -120px;
+    }
+
+    #image h1{
+      font-size: 20px;
+    }
+
+  #try{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  header{
+    font-size: 18px;
+  }
+
+   .footer-item, .footer-social{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .main-menu li{
+    padding-left:2.5%;
+  }
+
+  .main-menu li:nth-of-type(1){
+    padding-left:.5%;
+  }
+  }
+  
+@media screen and (max-width: 768px){
+  h1{margin-top: 25px;}
+  #content{
+    margin-top: 30%;
+  }
+
+      h1{
+   background: url('cloudcomputing.jpg');
+  background-size: cover;
+  height: 250px;
+  width: auto;
+  font-size: 25px;
+}
+  
+  #content p{
+    font-size: 15px;
+  }
+
+  #bg ul li{
+    font-size: 15px;
+  }
+  #image p{
+    font-size: 18px;
+  }
+
+
+   #image{
+      margin-top: -100px;
+    }
+
+  header{
+    width: 100%;
+    height: auto;
+    
+    position: absolute;
+   
+    
+  }
+
+  .main-menu li {
+    clear: left;
+    list-style-type: disc;
+    color:  white;
+    text-decoration: underline;
+    text-underline-position: under;
+    
+    line-height: 35px;
+  /* border-bottom: 1px dotted #fff;*/
+
+
+  }
+
+  .main-menu li:last-child{
+    border-bottom: none;
+  }
+
+
+  .footer-item, .footer-social{
+    width: 100%;
+   }
+}
+
+@media screen and (max-width: 420px){
+  #content{
+    margin-top: 60%;
+  }
+}

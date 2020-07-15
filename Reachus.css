@@ -1,0 +1,317 @@
+*{
+  box-sizing:border-box
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #f2643e;
+}
+
+
+header {
+ background:#3c297b;
+ width: 100%;
+ height: 30px;
+ top: 0;
+ padding: 15px 0px;
+ position: fixed;
+ font-size: 30px;
+
+}
+.main-menu  li{
+  list-style-type: none;
+  font-size: 22px;
+  float: left;
+  padding-left:5%;
+
+}
+li a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+.active a{
+   color: #f2643e;
+}
+
+ li a:hover{
+  color: #f2643e;
+
+}
+.sub-menu{
+  background-color: #3c297b;
+  
+  }
+
+.sub-menu{
+  display: none;
+
+}
+
+ li:hover .sub-menu{
+   display:block;
+   position: absolute;
+   color: #f2643e;
+   font-size: 22px;
+   /*margin-top: 0;*/
+   /*margin-left: -15px;*/
+ }
+
+ li:hover .sub-menu ul{
+  display: flex;
+
+  flex-direction: column;
+  margin-top:0;
+  padding: 0;
+ 
+ }
+
+  li:hover .sub-menu ul li {
+     width:300px;
+     padding: 10px;
+     
+     border-bottom: 1px dotted #fff;
+     background:transparent;
+     border-radius: 0;
+     text-align: left;
+  }
+
+  li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+  }
+  
+  form{
+    width: 100%;
+  /*  padding: 0;*/
+
+    margin-top: 65px; 
+   
+    align-content: center;  
+     background:#eaeff3;
+
+   /* border-radius: 10% 10%;*/
+  }
+
+  form h1 {
+    
+    margin-left: 15%;
+     padding: 25px;
+    color: #f2643e;
+    font-size: 50px;
+  }
+ 
+  i{
+
+    color: white;
+    margin-left: 10%;
+    padding: 10px;
+  }
+
+
+  button{
+    margin-left: 40%;
+    font-size: 20px;
+    padding: 8px;
+    margin-bottom:5%;
+    width:20%;
+
+    background:#3c297b;
+   
+
+  }
+  .fa{
+     color: #2d2d2f;
+     font-size: 25px;
+  }
+  p{
+    text-align: center;
+    color: #2d2d2f;
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+
+  button:hover {
+     background:#f2643e;
+     color: white;
+
+  }
+
+  button a{
+    text-decoration: none;
+    color: white;
+  }
+
+   button a:hover{
+    color: #3c297b;
+   }
+
+ 
+
+  iframe{
+    width: 80%;
+    margin-left: 10%;
+
+     }   
+
+
+  footer{
+  width: 100%;
+  background: #3c297b;
+  display: block;
+}
+
+.footer-content{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.footer-item{
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+ footer h3{
+  padding: 10px 0;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.footer-item p{
+   color: white;
+   font-size: 16px;
+   text-align: justify;
+   font-family: sans-serif;
+}
+
+.border{
+  height: 2px;
+  width: 40px;
+  background:#f2643e;
+}
+
+footer ul {
+  list-style-type: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-family: sans-serif;
+}
+
+footer  a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+footer  a :hover{
+  color: #f2643e;
+}
+
+footer ul li{
+  margin: 10px 0;
+  height: 25px;
+}
+
+.footer-social{
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.footer-social i{
+  height: 15px;
+  width: 15px;
+  margin: 10px 30px;
+  padding: 10px;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.footer-social i:hover{
+  background: #f2643e;
+  border: 1px solid #3c297b;
+  color: #3c297b;
+}
+   
+
+
+  @media screen and (max-width: 1085px){
+
+  header{
+    font-size: 18px;
+  }
+
+   .footer-item, .footer-social{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .main-menu li{
+    padding-left:2.5%;
+  }
+
+  .main-menu li:nth-of-type(1){
+    padding-left:.5%;
+  }
+  }
+  
+@media screen and (max-width: 768px){
+  header{
+    width: 100%;
+    height: auto;
+    
+    position: absolute;
+   
+    font-size: 15px;
+  }
+
+   div i{
+    font-size: 15px;
+  }
+   p{
+    font-size: 15px;
+  }
+
+  .main-menu li {
+    clear: left;
+    list-style-type: disc;
+    color:  white;
+    text-decoration: underline;
+    text-underline-position: under;
+    
+    line-height: 35px;
+  /* border-bottom: 1px dotted #fff;*/
+
+
+  }
+
+  .main-menu li:last-child{
+    border-bottom: none;
+  }
+
+  form{
+    margin-top: 250px;
+  }
+
+  .footer-item, .footer-social{
+    width: 100%;
+   }
+}
+
+@media screen and (max-width: 420px){
+  #content{
+    margin-top: 62%;
+  }
+
+   #image{
+      margin-top: -180px;
+    }
+}

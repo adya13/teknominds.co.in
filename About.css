@@ -15,7 +15,7 @@ body{
   /*margin-right: 0;*/
   background: #eaeff3;
  color: #2d2d2f;
- padding: 60px;
+ padding:40px;
  width:auto;
 
 }
@@ -53,6 +53,7 @@ h1 {
     background: /*rgba(0,0,0,0.2)*/#f2643e;
     color: white;
     width: 100%;
+    align-content:center;
     margin:auto;
     padding: 25px;
     padding-top: 25px;

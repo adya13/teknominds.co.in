@@ -61,7 +61,7 @@ h1 {
 
   #bg ul li{
   /*  margin-left: 25px;*/
-    font-family: sans-serif;
+   
   }
 
    #title{
@@ -80,10 +80,6 @@ h1 {
     color: #3c297b;
     font-family: 'Do Hyeon', sans-serif;
 
-  }
-
-  p{
-    font-family: sans-serif;
   }
 
   h2{
@@ -209,7 +205,7 @@ a.active{
    color: white;
    font-size: 16px;
    text-align: justify;
-   font-family: sans-serif;
+  
 }
 
 .border{
@@ -225,7 +221,7 @@ footer ul li{
   letter-spacing: 0.5px;
    margin: 10px 0;
   height: 25px;
-  font-family: sans-serif;
+ 
 }
 
 footer  a {

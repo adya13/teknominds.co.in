@@ -296,8 +296,7 @@ footer  a :hover{
     }
 
   #try{
-    display: flex;
-    flex-direction: column;
+     grid-template-columns: auto ;
   }
 
 

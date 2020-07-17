@@ -248,7 +248,7 @@ footer{
    color: white;
    font-size: 16px;
    text-align: justify;
-    font-family: sans-serif;
+   
 }
 
 .border{
@@ -277,8 +277,7 @@ footer  a :hover{
 footer ul li{
   margin: 10px 0;
   height: 25px;
-   font-family: sans-serif;
-}
+   }
 
 .footer-social{
   width: 100%;

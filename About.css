@@ -15,7 +15,7 @@ body{
   /*margin-right: 0;*/
   background: #eaeff3;
  color: #2d2d2f;
- padding:40px;
+ padding:60px;
  width:auto;
 
 }
@@ -45,7 +45,7 @@ h1 {
 
   #image p{
     padding: 25px;
-    padding-top: 80px;
+    padding-top: 40px;
     line-height: 50px;
   }
 

@@ -28,6 +28,7 @@ h1 {
     color:  #f2643e;
     font-size: 50px;
     text-align: center;
+  font-family: 'Do Hyeon', sans-serif;
   }
 
 #image{
@@ -46,6 +47,7 @@ h1 {
 #bg h3{
     font-size: 25px;
     margin-left: 25px;
+  font-family: 'Do Hyeon', sans-serif;
   }
 
   #bg{
@@ -90,18 +92,20 @@ h1 {
 
   h3{
     color: #3c297b;
-    
+    font-family: 'Do Hyeon', sans-serif;
 
   }
 
   h2{
     font-size: 34px;
+    font-family: 'Do Hyeon', sans-serif;
   }
 
   h4{
     color: skyblue;
     font-size: 18px;
     padding: 0px 25px;
+    font-family: 'Do Hyeon', sans-serif;
   }
 
   #bg p, ul li{
@@ -138,7 +142,7 @@ header {
  padding: 15px 0px;
  position: fixed;
  font-size: 30px;
-
+font-family: 'Do Hyeon', sans-serif;
 }
 .main-menu  li{
   list-style-type: none;
@@ -231,6 +235,7 @@ a.active{
   padding: 10px 0;
   font-size: 25px;
   color: #ffffff;
+   font-family: 'Do Hyeon', sans-serif;
 }
 
 .footer-item p{

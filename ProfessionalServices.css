@@ -340,13 +340,11 @@ footer  a :hover{
    
 
   #try1{
-    display: flex;
-    flex-direction: column;
+     grid-template-columns: auto ;
   }
 
 #try2{
-    display: flex;
-    flex-direction: column;
+     grid-template-columns: auto ;
   }
 
 

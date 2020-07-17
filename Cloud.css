@@ -84,6 +84,7 @@ h1 {
   .grid {
     width: 90%;
     padding: 5px;
+    margin:auto ;
     color: white;
     background: #f2643e;
     border-radius: 20px;

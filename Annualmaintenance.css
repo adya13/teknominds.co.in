@@ -6,6 +6,7 @@
 
 body{
   background:#f2643e;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #content{
@@ -98,9 +99,7 @@ h1 {
     color: white;
 
   }
-  #grid3 .grid{
-    font-family: sans-serif;
-  }
+  
 
   .grid p{
     color: white;
@@ -130,7 +129,7 @@ h1 {
 
    p{
     font-size: 22px;
-    font-family: sans-serif;
+    
   }
 
   #text {
@@ -260,7 +259,7 @@ a.active{
    color: white;
    font-size: 16px;
    text-align: justify;
-   font-family: sans-serif;
+  
 }
 
 .border{
@@ -276,7 +275,7 @@ footer ul li{
   letter-spacing: 0.5px;
    margin: 10px 0;
   height: 25px;
-  font-family: sans-serif;
+ 
 }
 
 footer  a {

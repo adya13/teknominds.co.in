@@ -314,19 +314,13 @@ footer  a :hover{
 
      
     
-    #grid1{
-    display: flex;
-    flex-direction: column;
-  }
-
+    
     #grid2{
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: auto ;
   }
 
    #grid3{
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: auto ;
   }
 
   header{

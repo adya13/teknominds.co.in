@@ -93,7 +93,7 @@ h1 {
   }
 
 #grid3 .grid{
- background:#fcedda;
+ background:#fdc690;
 }
    
   .grid {
@@ -330,6 +330,11 @@ footer  a :hover{
   }
     .grid{
       margin:auto;
+      font-size:18px;
+    }
+    
+    .grid h3{
+      font-size: 22px;
     }
 
   header{

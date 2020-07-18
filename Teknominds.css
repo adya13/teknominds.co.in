@@ -369,7 +369,7 @@ footer ul li{
 
 
   .mySlides:nth-child(1){
-    background-image: url('cloud2.jpg');
+    background-image: url('cloud4.jpg');
    /* background-repeat: no-repeat;*/
   background-size: cover;
  }

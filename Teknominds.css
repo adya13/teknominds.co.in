@@ -406,7 +406,7 @@ footer ul li{
     height: auto;
     
     position: absolute;
-   
+   display:none;
     font-size: 15px;
   }
 

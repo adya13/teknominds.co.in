@@ -12,7 +12,7 @@ body{
 #content{
   margin-top: 65px;
   /*margin-right: 0;*/
-  background: #eaeff3;
+  background: #f8f8f8;
  color: #2d2d2f;
  padding: 45px;
  width:auto;
@@ -50,8 +50,8 @@ h1 {
   }
 
   #bg{
-    background: /*rgba(0,0,0,0.2)*/#f2643e;
-    color: white;
+    background: /*rgba(0,0,0,0.2)*/#fdc690;
+    color: #333;
     width: 100%;
     margin-left: -15px;
     padding: 15px;
@@ -85,13 +85,13 @@ h1 {
   }
 
   h4{
-    color: #36c3e1;
+    color: blue;
     font-size: 18px;
      font-family: 'Do Hyeon', sans-serif;
   }
 
   p, ul li{
-    font-size: 22px;
+    font-size: 18px;
 
   }
 header {

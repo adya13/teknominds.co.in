@@ -12,7 +12,7 @@ body{
 #content{
   margin-top: 65px;
   /*margin-right: 0;*/
-  background: #eaeff3;
+  background: #f8f8f8;
  color: #2d2d2f;
  /*padding: 60px;*/
  width:100%;
@@ -78,7 +78,7 @@ h1 {
 
   #try1{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto ;
     grid-gap: 5rem;
     /*grid-column-gap: 0.5rem;*/
     padding: 2rem 0rem;
@@ -98,8 +98,7 @@ h1 {
     padding: 5px;
     margin: auto;
     margin--left:25px;
-    color: white;
-    background: #f2643e;
+    background: #fdc690;
     border-radius: 20px;
   }
 
@@ -124,7 +123,8 @@ h1 {
   }
 
   #bg p, ul li{
-    font-size: 22px;
+    font-size: 18px;
+    color:#333;
   }
  /* #text {
     

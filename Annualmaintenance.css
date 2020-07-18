@@ -69,7 +69,7 @@ h1 {
 
    #grid2{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     grid-gap: 5rem;
     /*grid-column-gap: 0.5rem;*/
     padding: 5rem 0rem;
@@ -101,12 +101,6 @@ h1 {
     color: white;
 
   }
-  
-#grid2 .grid{
-  margin:auto;
-  margin-left: 25px;
-}
-
   .grid p{
     color: white;
   }

@@ -63,7 +63,7 @@ h1 {
     padding: 5rem 0rem;
     width: 100%;
     /*justify-content: space-around;*/
-    margin:auto;
+    
 
   }
 
@@ -75,7 +75,7 @@ h1 {
     padding: 5rem 0rem;
     width: 100%;
     /*justify-content: space-around;*/
-    margin:auto;
+    
 
   }
 
@@ -89,19 +89,22 @@ h1 {
     /*justify-content: space-around;*/
      text-align: center;
      font-size: 22px;
-margin:auto;
+
   }
    
   .grid {
     width: 90%;
     padding: 5px;
-    margin-left: 25px;
+    margin: auto;
     background: #f2643e;
     border-radius: 20px;
     color: white;
 
   }
   
+#grid2 .grid{
+  margin-left: 25px;
+}
 
   .grid p{
     color: white;

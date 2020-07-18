@@ -41,7 +41,7 @@ h1 {
   font-size: 22px;
   color: white;
   padding: 10px;
-  font-family: sans-serif;
+  
 }
 
 #bg h3{
@@ -73,12 +73,12 @@ h1 {
    
     #bg ul li{
     margin-left: 15px;
-     font-family: sans-serif;
+     
   }
 
   #bg p{
     padding: 0px 25px;
-    font-family: sans-serif;
+    
   }
 
   .grid {

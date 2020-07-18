@@ -60,7 +60,7 @@ h1 {
 
   #try{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     grid-gap: 5rem;
     /*grid-column-gap: 0.5rem;*/
     padding: 5rem 0rem;

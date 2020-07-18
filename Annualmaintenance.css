@@ -98,11 +98,11 @@ h1 {
     margin: auto;
 /*     background: #f2643e; */
     border-radius: 20px;
-    color: white;
+    
 
   }
   .grid p{
-    color: #2d2d2f;
+    color: #333;
   }
 
    h2{

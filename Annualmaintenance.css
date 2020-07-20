@@ -10,7 +10,7 @@ body{
 }
 
 #content{
-margin-top:0px;
+  margin-top: 65px;
  /* margin-right: 0;*/
   background:#f8f8f8;
  color: #2d2d2f;
@@ -548,7 +548,7 @@ li:hover .sub-menu{
 @media screen and (max-width: 768px){
   h1{margin-top: 25px;}
   #content{
-    margin-top: 36%;
+    margin-top:0px;
   }
         h1{
    background: url('applicationsupport.png');
@@ -588,8 +588,8 @@ li:hover .sub-menu{
     width: 100%;
    }
 }
-@media screen and (max-width: 420px){
+/* @media screen and (max-width: 420px){
   #content{
     margin-top: 60%;
   }
-}
+} */

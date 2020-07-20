@@ -581,7 +581,7 @@ li:hover .sub-menu{
      text-align: left;
      line-height:50px;
   }
-/*   header{
+  header{
     width: 100%;
     height: auto;
     
@@ -598,17 +598,17 @@ li:hover .sub-menu{
     text-underline-position: under;
     
     line-height: 35px;
-  /* border-bottom: 1px dotted #fff;*/
+  border-bottom: 1px dotted #fff;
 
 
   }
 
   .main-menu li:last-child{
     border-bottom: none;
-  } */
+  }
 
 
-  .footer-item, .footer-social{
+ .footer-item, .footer-social{
     width: 100%;
    }
 }

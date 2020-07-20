@@ -553,7 +553,9 @@ li:hover .sub-menu{
 
 @media screen and (max-width: 768px){
   
-
+  li:hover .sub-menu ul li {
+     width:200px;
+  }
 
   .mySlides:nth-child(1){
     background-image: url('cloud4.jpg');

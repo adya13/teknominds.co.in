@@ -581,31 +581,7 @@ li:hover .sub-menu{
      text-align: left;
      line-height:50px;
   }
-  header{
-    width: 100%;
-    height: auto;
-    
-    position: absolute;
-   
-    font-size: 15px;
-  }
-
-  .main-menu li {
-    clear: left;
-    list-style-type: disc;
-    color:  white;
-    text-decoration: underline;
-    text-underline-position: under;
-    
-    line-height: 35px;
-  border-bottom: 1px dotted #fff;
-
-
-  }
-
-  .main-menu li:last-child{
-    border-bottom: none;
-  }
+ 
 
 
  .footer-item, .footer-social{

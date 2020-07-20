@@ -145,6 +145,10 @@ header {
  font-size: 30px;
 font-family: 'Do Hyeon', sans-serif;
 }
+.main-menu{
+  margin-top: -20px;
+}
+
 .main-menu  li{
   list-style-type: none;
   font-size: 22px;
@@ -313,14 +317,192 @@ footer  a :hover{
 }
 
 @media screen and (max-width: 800px){
-  .main-menu li{
-    padding-left:2.5%;
+ 
+ nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.toggler{
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 60px;
+  height: 60px;
+  z-index: 3;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.hamburger{
+  position: absolute;
+  top: 0.2rem;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #111;
+}
+
+.hamburger>div{
+  position: absolute;
+  width: 60%;
+  height: 3px;
+  border-radius: 1.5px;
+  background-color: #f2643e;
+  transition: .4s;
+}
+
+.hamburger>div:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 1.5px;
+  background-color: #f2643e;
+  top: -10px;
+  left: 0;
+  transition: .4s;
+}
+
+.hamburger>div:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 1.5px;
+  background-color: #f2643e;
+  top: 10px;
+  left: 0;
+  transition: .4s;
+}
+
+.toggler:checked + .hamburger>div{
+  transform: rotate(135deg);
+}
+
+.toggler:checked:hover + .hamburger>div{
+  transform: rotate(225deg);
+}
+
+.toggler:checked + .hamburger>div:before, .toggler:checked + .hamburger>div:after{
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.main-menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  transition: .6s;
+}
+
+.main-menu li{
+  clear: left;
+}
+
+.main-menu > div{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateX(-150%) translateY(-50%);
+    width: 1600px;
+    height: 1600px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: .6s;
+}
+
+.main-menu > div > div{
+  max-width: 90vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: .6s;
+  /*flex-direction: column;*/
+}
+
+.main-menu > div > div > ul > li{
+  list-style: none;
+  /*border-bottom: 1px dotted #fff;*/
+   line-height: 80px;
+}
+
+.main-menu > div > div > ul > li > a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 550;
+  text-transform: uppercase;
+  margin: .5rem;
+  transition: .3s;
+  font-size: 1.2rem;
+  /*display: inline-block;*/
+ 
+}
+
+.main-menu > div > div > ul > li > a:hover{
+  color: #f2643e;
+}
+
+.sub-menu{
+  background-color:rgba(0, 0, 0, 0.9);
+  
   }
 
-  .main-menu li:nth-of-type(1){
-    padding-left:.5%;
+.sub-menu{
+  display: none;
+
+}
+
+li:hover .sub-menu{
+   display:block;
+   position: absolute;
+   color: #f2643e;
+   margin-top: -150px;
+   margin-left:100px;
+ }
+
+ li:hover .sub-menu ul{
+  display: flex;
+
+  flex-direction: column;
+  margin-top:0;
+  padding: 0;
+ 
+ }
+
+  li:hover .sub-menu ul li {
+     width:350px;
+     padding: 10px;
+     border-bottom: none;
+     background:transparent;
+     border-radius: 0;
+     text-align: left;
+    line-height:50px;
   }
-  }
+.toggler:checked ~ .main-menu{
+  visibility: visible;
+}
+
+.toggler:checked ~ .main-menu > div{
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.toggler:checked ~ .main-menu > div > div{
+  opacity: 1;
+}
 
 @media screen and (max-width: 768px){
   h1{margin-top: 25px;}
@@ -349,31 +531,16 @@ footer  a :hover{
 
     }
 
-  header{
-    width: 100%;
-    height: auto;
-    
-    position: absolute;
-   
-    font-size: 15px;
-  }
-
-  .main-menu li {
-    clear: left;
-    list-style-type: disc;
-    color:  white;
-    text-decoration: underline;
-    text-underline-position: under;
-    
-    line-height: 35px;
-  /* border-bottom: 1px dotted #fff;*/
-
-
-  }
-
-  .main-menu li:last-child{
-    border-bottom: none;
-  }
+   li:hover .sub-menu ul li {
+     width:300px;
+     padding: 10px;
+     font-size:12px;
+     border-bottom: none;
+     background:transparent;
+     border-radius: 0;
+     text-align: left;
+     line-height:50px;
+  } 
 
 
   .footer-item, .footer-social{

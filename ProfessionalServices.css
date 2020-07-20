@@ -395,9 +395,7 @@ footer  a :hover{
   #bg ul li{
     font-size: 15px;
   }
-  header ul li{
-    font-size: 15px;
-  }
+  
 
   #image p{
     font-size: 18px;
@@ -408,32 +406,16 @@ footer  a :hover{
       margin-top: -100px;
     }
 
-  header{
-    width: 100%;
-    height: auto;
-    
-    position: absolute;
-   
-    font-size: 15px;
+  li:hover .sub-menu ul li {
+     width:300px;
+     padding: 10px;
+     font-size:12px;
+     border-bottom: none;
+     background:transparent;
+     border-radius: 0;
+     text-align: left;
+     line-height:50px;
   }
-
-  .main-menu li {
-    clear: left;
-    list-style-type: disc;
-    color:  white;
-    text-decoration: underline;
-    text-underline-position: under;
-    
-    line-height: 35px;
-  /* border-bottom: 1px dotted #fff;*/
-
-
-  }
-
-  .main-menu li:last-child{
-    border-bottom: none;
-  }
-
 
   .footer-item, .footer-social{
     width: 100%;

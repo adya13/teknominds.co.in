@@ -553,9 +553,9 @@ li:hover .sub-menu{
 
 @media screen and (max-width: 768px){
    li:hover .sub-menu ul li {
-     width:200px;
+     width:250px;
      padding: 10px;
-     font-size:10px;
+     font-size:12px;
      border-bottom: none;
      background:transparent;
      border-radius: 0;

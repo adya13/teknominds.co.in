@@ -532,6 +532,7 @@ li:hover .sub-menu{
      background:transparent;
      border-radius: 0;
      text-align: left;
+    line-height:50px;
   }
 .toggler:checked ~ .main-menu{
   visibility: visible;
@@ -563,6 +564,7 @@ li:hover .sub-menu{
      background:transparent;
      border-radius: 0;
      text-align: left;
+     line-height:50px;
   }
 
   .mySlides:nth-child(1){

@@ -297,42 +297,20 @@ footer ul li{
 }
 
 @media screen and (max-width: 1085px){
-  .mySlides:nth-child(1){
-    background-image: url('cloud1.jpg');
-   /* background-repeat: no-repeat;*/
-  background-size: cover; 
-}
-
-.mySlides:nth-child(2){
-    background-image: url('manageserve.jpg');
-  background-size: cover;
-}
-
-.mySlides:nth-child(3){
-    background-image: url('professionalservices.jpg');
-  background-size: cover;
-}
-
- .texts {
-  max-width: 75%;
-  height: 150px;
-}
-
-.heading{
-  font-size: 34px;
-}
-
-.intro{
-  font-size: 20px;
-}
+ 
+  h2{
+    font-size:45px;
+  }
+  
+  p{
+    font-size:25px;
+  }
 
   header{
     font-size: 18px;
   }
 
-  .slideshow-container{
-    width: 100%;
-  }
+ 
 
   .footer-item, .footer-social{
     width: 50%;
@@ -547,67 +525,15 @@ li:hover .sub-menu{
      text-align: left;
      line-height:50px;
   }
-
-  .mySlides:nth-child(1){
-    background-image: url('cloud4.jpg');
-   /* background-repeat: no-repeat;*/
-  background-size: cover;
- }
-
-.mySlides:nth-child(2){
-    background-image: url('manageserve.jpg');
-  background-size: cover;
-}
-
-.mySlides:nth-child(3){
-    background-image: url('professionalservices.jpg');
-  background-size: cover;
-}
-
- .slideshow-container{
-    width: 100%;
+  
+   h2{
+    font-size:25px;
   }
- 
- .texts {
-  max-width: 75%;
-  height: 100px;
-}
-
-.heading{
-  font-size: 20px;
-}
-
-.intro{
-  font-size: 16px;
-}
-/*
-  header{
-    width: 100%;
-    height: auto;
-    
-    position: absolute;
-    display: none;
-    font-size: 15px;
+  
+  p{
+    font-size:15px;
   }
-*/
-  /*.slideshow-container{
-    margin-top: 50%;
-  }*/
-
- 
-
-  .mySlides{
-    flex-direction: column;
-    }
-    .mySlides td {flex-direction: column;
-
-    }
-    .mySlides iframe{
-
-      flex-direction: column;
-    }
-
-    
+  
    .footer-item, .footer-social{
     width: 100%;
    }
@@ -618,7 +544,7 @@ li:hover .sub-menu{
   .main-menu > div{
     left: 10%;
   }
-  #content{
+/*   #content{
     margin-top: 62%;
   }
 
@@ -626,3 +552,4 @@ li:hover .sub-menu{
       margin-top: -180px;
     }
 }
+ */

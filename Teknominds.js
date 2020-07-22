@@ -1,29 +1,86 @@
+var bannerStatus=1;
+var bannerTime=4000;
 
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+window.onload=function(){
+  bannerLoop();
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+var startBannerLoop = setInterval(function(){
+  bannerLoop();
+
+}, bannerTime);
+
+document.getElementById("main-banner").onmouseenter=function(){
+  clearInterval(startBannerLoop);
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+document.getElementById("main-banner").onmouseleave= function(){
+  startBannerLoop= setInterval(function(){
+    bannerLoop();
+  }, bannerTime);
+}
+
+document.getElementById("imgbanbtn-prev").onclick= function(){
+  if(bannerStatus===1){
+    bannerStatus=2;
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+  else if(bannerStatus===1){
+    bannerStatus=2;
   }
-  slides[slideIndex-1].style.display = "flex";
-  dots[slideIndex-1].className += " active";
+  else if(bannerStatus===1){
+    bannerStatus=2;
+  }
+  bannerLoop();
+}
+
+document.getElementById("imgbanbtn-next").onclick= function(){
+  bannerLoop();
+}
+
+function bannerLoop(){
+  if(bannerStatus===1){
+    document.getElementById("imgban2").style.opacity="0";
+    setTimeout(function(){
+      document.getElementById("imgban1").style.right="0px";
+      document.getElementById("imgban1").style.zIndex="1700px";
+      document.getElementById("imgban2").style.right="-1900px";
+      document.getElementById("imgban2").style.zIndex="2200px";
+      document.getElementById("imgban3").style.right="1900px";
+      document.getElementById("imgban3").style.zIndex="1200px";
+    }, 500);
+    setTimeout(function(){
+      document.getElementById("imgban2").style.opacity="1";
+    }, 1000);
+    bannerStatus=2;
+  }
+  else if(bannerStatus===2){
+    document.getElementById("imgban3").style.opacity="0";
+    setTimeout(function(){
+      document.getElementById("imgban2").style.right="0px";
+      document.getElementById("imgban2").style.zIndex="1700px";
+      document.getElementById("imgban3").style.right="-1900px";
+      document.getElementById("imgban3").style.zIndex="2200px";
+      document.getElementById("imgban1").style.right="1900px";
+      document.getElementById("imgban1").style.zIndex="1200px";
+    }, 500);
+    setTimeout(function(){
+      document.getElementById("imgban3").style.opacity="1";
+    }, 1000);
+    bannerStatus=3;
+  }
+  else if(bannerStatus===3){
+    document.getElementById("imgban1").style.opacity="0";
+    setTimeout(function(){
+      document.getElementById("imgban3").style.right="0px";
+      document.getElementById("imgban3").style.zIndex="1700px";
+      document.getElementById("imgban1").style.right="-1900px";
+      document.getElementById("imgban1").style.zIndex="2200px";
+      document.getElementById("imgban2").style.right="1900px";
+      document.getElementById("imgban2").style.zIndex="1200px";
+    }, 500);
+    setTimeout(function(){
+      document.getElementById("imgban1").style.opacity="1";
+    }, 1000);
+    bannerStatus=1;
+  }
 }

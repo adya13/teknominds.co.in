@@ -24,6 +24,15 @@ font-family: 'Do Hyeon', sans-serif;
   display: none;
 }
 
+#img{
+float: left;
+}
+
+#img img{
+  height: 70px;
+  margin-top: -22px;
+}
+
 .main-menu  li{
   list-style-type: none;
   font-size: 22px;
@@ -271,6 +280,7 @@ footer ul li{
 
 .toggler{
   position: absolute;
+  display:block;
   top: 0.5rem;
   left: 0.5rem;
   width: 60px;
@@ -279,6 +289,17 @@ footer ul li{
   opacity: 0;
   cursor: pointer;
 }
+  
+  #img{
+  clear:left;
+}
+
+#img img{
+  height: 65px;
+  margin-top: -5px;
+  margin-left:45%;
+}
+
 
 .hamburger{
   position: absolute;

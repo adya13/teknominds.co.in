@@ -10,15 +10,15 @@ var startBannerLoop = setInterval(function(){
 
 }, bannerTime);
 
-document.getElementById("main-banner").onmouseenter=function(){
-  clearInterval(startBannerLoop);
-}
+// document.getElementById("main-banner").onmouseenter=function(){
+//   clearInterval(startBannerLoop);
+// }
 
-document.getElementById("main-banner").onmouseleave= function(){
-  startBannerLoop= setInterval(function(){
-    bannerLoop();
-  }, bannerTime);
-}
+// document.getElementById("main-banner").onmouseleave= function(){
+//   startBannerLoop= setInterval(function(){
+//     bannerLoop();
+//   }, bannerTime);
+// }
 
 document.getElementById("imgbanbtn-prev").onclick= function(){
   if(bannerStatus===1){

@@ -18,8 +18,8 @@ header {
 font-family: 'Do Hyeon', sans-serif;
 }
 
-.main-menu{
-  margin-top: -20px;
+.toggler{
+  display: none;
 }
 
 .main-menu  li{

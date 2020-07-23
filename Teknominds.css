@@ -555,6 +555,20 @@ li:hover .sub-menu{
     font-size:16px;
   }
   
+  .main-banner #imgban3 .imgban-box{
+    padding-top: 75%;
+    padding-left: 25%; 
+
+  }
+  .main-banner #imgban2 .imgban-box{
+   padding-top: 75%;
+    padding-left: 25%; 
+  }
+  .main-banner #imgban1 .imgban-box{
+    padding-top: 75%;
+    padding-left: 25%; 
+  }
+  
    .footer-item, .footer-social{
     width: 100%;
    }

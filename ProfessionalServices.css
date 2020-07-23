@@ -184,10 +184,9 @@ header {
  font-size: 30px;
 font-family: 'Do Hyeon', sans-serif;
 }
-.main-menu{
-  margin-top: -20px;
+.toggler{
+  display: none;
 }
-
 .main-menu  li{
   list-style-type: none;
   font-size: 25px;

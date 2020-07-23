@@ -343,6 +343,7 @@ footer ul li{
 
 .toggler{
   position: absolute;
+  display:block;
   top: 0.5rem;
   left: 0.5rem;
   width: 60px;
@@ -350,6 +351,16 @@ footer ul li{
   z-index: 3;
   opacity: 0;
   cursor: pointer;
+}
+  
+  #img{
+  clear:left;
+}
+
+#img img{
+  height: 65px;
+  margin-top: -5px;
+  margin-left:45%;
 }
 
 .hamburger{

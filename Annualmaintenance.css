@@ -94,7 +94,8 @@ h1 {
   }
 
 #grid3 .grid{
- background:#fdc690;
+background:#FFF;
+      box-shadow: 5px 10px grey;
 }
    
   .grid {

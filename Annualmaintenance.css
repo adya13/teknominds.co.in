@@ -74,8 +74,7 @@ h1 {
     /*grid-column-gap: 0.5rem;*/
     padding: 5rem 0rem;
     width: 100%;
-     background:#FFF;
-      box-shadow: 5px 10px grey;
+    
     /*justify-content: space-around;*/
     
 
@@ -107,6 +106,12 @@ h1 {
     
 
   }
+
+#grid2 .grid{
+   background:#FFF;
+      box-shadow: 5px 10px grey;
+}
+  
   .grid p{
     color: #333;
   }

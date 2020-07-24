@@ -84,6 +84,8 @@ h1 {
     grid-template-columns: auto auto auto auto;
     grid-gap: 5rem;
     /*grid-column-gap: 0.5rem;*/
+     background:#FFF;
+     box-shadow: 5px 10px grey;
     padding: 5rem 0rem;
     width: 100%;
     /*justify-content: space-around;*/

@@ -50,7 +50,8 @@ h1 {
   }
 
   #bg{
-    background: /*rgba(0,0,0,0.2)*/#fdc690;
+    background:#FFF;
+      box-shadow: 5px 10px grey;
     color: #333;
     width: 100%;
     margin-left: -15px;
@@ -71,7 +72,7 @@ h1 {
   }
 
   #pink{
-    color:#36c3e1;
+    color:black;
   }
 
   h3 {

@@ -74,6 +74,8 @@ h1 {
     /*grid-column-gap: 0.5rem;*/
     padding: 5rem 0rem;
     width: 100%;
+     background:#FFF;
+      box-shadow: 5px 10px grey;
     /*justify-content: space-around;*/
     
 
@@ -83,10 +85,8 @@ h1 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 5rem;
-    /*grid-column-gap: 0.5rem;*/
-     background:#FFF;
-     box-shadow: 5px 10px grey;
-    padding: 5rem 0rem;
+    /*grid-column-gap: 0.5rem;*/   
+     padding: 5rem 0rem;
     width: 100%;
     /*justify-content: space-around;*/
      text-align: center;

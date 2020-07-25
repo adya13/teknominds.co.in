@@ -84,12 +84,12 @@ h1 {
      padding: 5rem 0rem;
     width: 100%;
     /*justify-content: space-around;*/
-     text-align: center;
+/*      text-align: center; */
      font-size: 22px;
 
   }
 
-#grid3 .grid{
+#grid3 ul li{
 background:#FFF;
       box-shadow: 5px 10px grey;
 }

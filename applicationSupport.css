@@ -112,6 +112,7 @@ h1 {
      background:#FFF;
       box-shadow: 5px 10px grey;
     font-family: 'Do Hyeon', sans-serif;
+     border-radius: 20px;
   }
 
    p{
@@ -134,6 +135,7 @@ h1 {
     text-decoration: underline;
     text-align:center;
     background:none;
+     border-radius: none;
     box-shadow:none;
     font-family: 'Do Hyeon', sans-serif;
   }

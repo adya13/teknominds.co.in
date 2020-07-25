@@ -108,6 +108,8 @@ h1 {
     color: black;
     font-size: 18px;
     padding: 0px 25px;
+     background:#FFF;
+      box-shadow: 5px 10px grey;
     font-family: 'Do Hyeon', sans-serif;
   }
 

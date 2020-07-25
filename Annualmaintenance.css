@@ -81,9 +81,12 @@ h1 {
   }
 
    #grid3{
-    display: grid;
+     display:flex;
+     flex-direction: column;
+     justify-content:flex-start;
+/*     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 5rem;
+    grid-gap: 5rem; */
     /*grid-column-gap: 0.5rem;*/   
      padding: 5rem 0rem;
     width: 100%;
@@ -337,10 +340,7 @@ footer  a :hover{
   border: 1px solid #3c297b;
   color: #3c297b;
 }
-  @media screen and (max-width: 1085px){
-
-     
-    
+  @media screen and (max-width: 1085px){ 
     
     #grid2{
     grid-template-columns: auto ;

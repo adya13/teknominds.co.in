@@ -151,7 +151,6 @@ function bannerLoop(){
 //   showSlides(slideIndex += n);
 // }
 
-
 // function currentSlide(n) {
 //   showSlides(slideIndex = n);
 // }

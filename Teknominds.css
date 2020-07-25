@@ -114,6 +114,20 @@ li a {
     -o-transition:all ease-in-out 500ms;
   }
 
+ .main-banner #imgban5{
+    background-image: url('infra.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .main-banner #imgban4{
+        background-image: url('applicationsupport.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
 
   .main-banner #imgban3{
     background-image: url('professionalservices.jpg');
@@ -193,7 +207,14 @@ li a {
      color: #fff;
   }
 
-  
+  .main-banner #imgban5 .imgban-box{
+    padding-top: 25%;
+    padding-left: 25%; 
+  }
+  .main-banner #imgban4 .imgban-box{
+    padding-top: 25%;
+    padding-left: 25%; 
+  }
 
   .main-banner #imgban3 .imgban-box{
     padding-top: 25%;

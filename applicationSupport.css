@@ -108,8 +108,8 @@ h1 {
     color: black;
     font-size: 18px;
     padding: 0px 25px;
+     width:30%;
      background:#FFF;
-    width:30%;
       box-shadow: 5px 10px grey;
     font-family: 'Do Hyeon', sans-serif;
   }
@@ -132,6 +132,8 @@ h1 {
     
     color:black;
     text-decoration: underline;
+    background:none;
+    box-shadow:none;
     font-family: 'Do Hyeon', sans-serif;
   }
 

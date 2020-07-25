@@ -82,25 +82,22 @@ h1 {
 
    #grid3{
      padding: 5rem 0rem;
-    width: 100%;
+    width: 30%;
     /*justify-content: space-around;*/
 /*      text-align: center; */
      font-size: 22px;
 
   }
-
-#grid3 ul li{
-background:#FFF;
-      box-shadow: 5px 10px grey;
-}
    
   .grid {
-    width: 90%;
+    width: auto;
     padding: 5px;
     margin-left:25px;
+    margin-top: 25px;
 /*     background: #f2643e; */
     border-radius: 20px;
-    
+     background:#FFF;
+      box-shadow: 5px 10px grey;
 
   }
 

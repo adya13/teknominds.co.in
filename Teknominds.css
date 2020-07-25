@@ -575,6 +575,16 @@ li:hover .sub-menu{
    .main-banner .imgban-box p{
     font-size:16px;
   }
+  .main-banner #imgban5 .imgban-box{
+    padding-top: 75%;
+    padding-left: 25%; 
+
+  }
+  .main-banner #imgban4 .imgban-box{
+    padding-top: 75%;
+    padding-left: 25%; 
+
+  }
   
   .main-banner #imgban3 .imgban-box{
     padding-top: 75%;

@@ -40,7 +40,7 @@ h1 {
 
   #image{
     display: flex;
-    align-items: center;
+/*     align-items: center; */
   }
 
   #image p{

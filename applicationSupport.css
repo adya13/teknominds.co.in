@@ -107,11 +107,11 @@ h1 {
     color: #eca39d;
     font-size: 18px;
     padding: 0px 25px;
-     width:15%;
+/*      width:15%;
      background:#FFF;
-      box-shadow: 5px 10px grey;
+      box-shadow: 5px 10px grey; */
     font-family: 'Do Hyeon', sans-serif;
-     border-radius: 20px;
+/*      border-radius: 20px; */
   }
 
    p{

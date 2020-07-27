@@ -157,6 +157,9 @@ h1 {
   #text p{
     color: #fff;
   }
+p, ul li{
+  font-size:18px;
+}
 
 header {
  background:#3c297b;

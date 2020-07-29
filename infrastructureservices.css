@@ -202,6 +202,10 @@ a.active{
   background-color:  #3c297b;
   
   }
+   .sub-menu ul li{
+    font-size: 18px;
+  }
+
 
 .sub-menu{
   display: none;

@@ -148,6 +148,11 @@ a.active{
   
   }
 
+   .sub-menu ul li{
+    font-size: 18px;
+  }
+
+
 .sub-menu{
   display: none;
 

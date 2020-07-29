@@ -27,7 +27,7 @@ h1 {
     color: #f2643e;
     font-size: 60px;
     text-align: center;
-  font-family: 'Do Hyeon', sans-serif;
+  /*font-family: 'Do Hyeon', sans-serif;*/
   }
 
   #image{
@@ -43,8 +43,9 @@ h1 {
 }
 
   #bg h3{
+    padding-top: 20px;
     font-size: 25px;
-    font-family: 'Do Hyeon', sans-serif;
+    /*font-family: 'Do Hyeon', sans-serif;*/
     
   }
 
@@ -59,7 +60,7 @@ h1 {
   #grid1{
     
     /*grid-column-gap: 0.5rem;*/
-    padding: 5rem 0rem;
+    padding: 3rem 0rem;
     width: 100%;
     /*justify-content: space-around;*/
     
@@ -71,7 +72,7 @@ h1 {
     grid-template-columns: auto auto;
     grid-gap: 2.5rem;
     /*grid-column-gap: 0.5rem;*/
-    padding: 5rem 0rem;
+    padding: 1rem 0rem;
     width: 100%;
     
     /*justify-content: space-around;*/
@@ -80,7 +81,7 @@ h1 {
   }
 
    #grid3{
-     padding: 3rem 0rem;
+     padding: 1rem 0rem;
     width: 30%;
     /*justify-content: space-around;*/
 /*      text-align: center; */
@@ -112,7 +113,7 @@ h1 {
    h2{
     text-align: center;
     color: #800000;
-     font-family: 'Do Hyeon', sans-serif;
+     /*font-family: 'Do Hyeon', sans-serif;*/
   }
 
   #bg p{
@@ -123,14 +124,14 @@ h1 {
   #bg h3{
     color:#203864;
     text-align: center;
-    font-family: 'Do Hyeon', sans-serif;
+    /*font-family: 'Do Hyeon', sans-serif;*/
   }
 
   h4{
     color: skyblue;
     font-size: 18px;
     padding: 0px 25px;
-    font-family: 'Do Hyeon', sans-serif;
+    /*font-family: 'Do Hyeon', sans-serif;*/
   }
 
    p{
@@ -151,7 +152,7 @@ h1 {
     
     color:skyblue;
     text-decoration: underline;
-    font-family: 'Do Hyeon', sans-serif;
+    /*font-family: 'Do Hyeon', sans-serif;*/
   }
 
   #text p{
@@ -169,7 +170,7 @@ header {
  padding: 15px 0px;
  position: fixed;
  font-size: 30px;
-font-family: 'Do Hyeon', sans-serif;
+/*font-family: 'Do Hyeon', sans-serif;*/
 }
 .toggler{
   display: none;
@@ -275,7 +276,7 @@ a.active{
   padding: 10px 0;
   font-size: 25px;
   color: #ffffff;
-   font-family: 'Do Hyeon', sans-serif;
+   /*font-family: 'Do Hyeon', sans-serif;*/
 }
 
 .footer-item p{

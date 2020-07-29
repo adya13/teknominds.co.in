@@ -18,7 +18,7 @@ header {
  padding: 15px 0px;
  position: fixed;
  font-size: 30px;
-font-family: 'Do Hyeon', sans-serif;
+/*font-family: 'Do Hyeon', sans-serif;*/
 }
 .toggler{
   display: none;
@@ -113,7 +113,7 @@ li a {
      padding: 25px;
     color: #203864;
     font-size: 50px;
-    font-family: 'Do Hyeon', sans-serif;
+    /*font-family: 'Do Hyeon', sans-serif;*/
   }
  
   i{
@@ -195,7 +195,7 @@ li a {
   padding: 10px 0;
   font-size: 25px;
   color: #ffffff;
-   font-family: 'Do Hyeon', sans-serif;
+   /*font-family: 'Do Hyeon', sans-serif;*/
 }
 
 .footer-item p{

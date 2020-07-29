@@ -15,7 +15,7 @@ header {
  padding: 15px 0px;
  position: fixed;
  font-size: 25px;
-font-family: 'Do Hyeon', sans-serif;
+/*font-family: 'Do Hyeon', sans-serif;*/
 }
 
 .toggler{
@@ -191,7 +191,7 @@ li a {
 
    .main-banner .imgban-box h2{
     font-size: 60px;
-     font-family: 'Do Hyeon', sans-serif;
+     /*font-family: 'Do Hyeon', sans-serif;*/
     color: #f2643e;
     padding: 10px;
    /* background: rgba(0,0,0,0.8);*/
@@ -229,6 +229,19 @@ li a {
     padding-left: 25%; 
   }
 
+  button{
+  padding: 2px;
+  margin:25px;
+  margin-top: 5px;
+  background-color: #f2643e;
+  border-color: #f2643e;
+  color: #fff;
+  right: 0;
+}
+button:hover{
+  cursor: pointer;
+}
+
 
 footer{
   width: 100%;
@@ -255,7 +268,7 @@ footer{
   padding: 10px 0;
   font-size: 25px;
   color: #ffffff;
-   font-family: 'Do Hyeon', sans-serif;
+   /*font-family: 'Do Hyeon', sans-serif;*/
 }
 
 .footer-item p{

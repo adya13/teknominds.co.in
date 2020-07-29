@@ -34,7 +34,8 @@ h1 {
   }
 
   #image img {
-    padding: 25px;
+    padding:auto;
+    padding-top: 25px;
     height: 250px;
   }
 

@@ -16,7 +16,7 @@ header {
  padding: 15px 0px;
  position: fixed;
  font-size: 25px;
-/*font-family: 'Do Hyeon', sans-serif;*/
+font-family: 'Raleway', sans-serif;
 }
 
 .toggler{
@@ -192,7 +192,7 @@ li a {
 
    .main-banner .imgban-box h2{
     font-size: 60px;
-     /*font-family: 'Do Hyeon', sans-serif;*/
+     font-family: 'Raleway', sans-serif;
     color: #f2643e;
     padding: 10px;
    /* background: rgba(0,0,0,0.8);*/
@@ -269,7 +269,7 @@ footer{
   padding: 10px 0;
   font-size: 25px;
   color: #ffffff;
-   /*font-family: 'Do Hyeon', sans-serif;*/
+   font-family: 'Raleway', sans-serif;
 }
 
 .footer-item p{

@@ -25,7 +25,7 @@ h1{
   background-size: cover;
   height: 500px;
   width: auto;
-  /*font-family: 'Do Hyeon', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
 }
 #image{
   background: rgba(0,0,0,0.8);
@@ -36,7 +36,7 @@ h1{
 #image h2{
   font-size: 45px;
   padding: 20px;
-  /*font-family: 'Do Hyeon', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
 }
 
 #image p{
@@ -55,13 +55,13 @@ h1 {
     color: #f2643e;
     font-size: 50px;
     text-align: center;
-  /*font-family: 'Do Hyeon', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
   }
 
   #bg h3{
     font-size: 25px;
     margin-left: 25px;
-    /*font-family: 'Do Hyeon', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
     
   }
 
@@ -128,13 +128,13 @@ h1 {
 
   h2{
     color: #203864;
-    /*font-family: 'Do Hyeon', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
   }
 
 
   h3{
     color: #203864;
-    /*font-family: 'Do Hyeon', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
   }
 
   h2{
@@ -145,7 +145,7 @@ h1 {
     color: skyblue;
     font-size: 18px;
     padding: 0px 25px;
-    /*font-family: 'Do Hyeon', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
   }
 
   #bg p, ul li{
@@ -184,7 +184,7 @@ header {
  padding: 15px 0px;
  position: fixed;
  font-size: 30px;
-/*font-family: 'Do Hyeon', sans-serif;*/
+font-family: 'Raleway', sans-serif;
 }
 .toggler{
   display: none;
@@ -290,7 +290,7 @@ a.active{
   padding: 10px 0;
   font-size: 25px;
   color: #ffffff;
-   /*font-family: 'Do Hyeon', sans-serif;*/
+   font-family: 'Raleway', sans-serif;
 }
 
 .footer-item p{
